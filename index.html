@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number System Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Number System Converter</h1>
+        <div class="header">
+            <div class="name">
+                <span class="name-text"></span>
+            </div>
+            <div class="tag">
+                <span class="tag-text"></span>
+            </div>
+        </div>
+
+        <div id="conversion" class="conversion">
+            <label for="inputNumber">Enter Number:</label>
+            <input type="text" id="inputNumber" class="neu-input">
+            <button onclick="convert()" class="neu-button">Convert</button>
+            <div id="outputSpace" class="output-space"></div>
+            <p id="output"></p>
+        </div>
+
+        <div class="menu">
+            <!-- Other buttons -->
+            <button onclick="showConversion('decimalToBinary')">Decimal to Binary</button>
+            <button onclick="showConversion('binaryToDecimal')">Binary to Decimal</button>
+            <button onclick="showConversion('decimalToOctal')">Decimal to Octal</button>
+            <button onclick="showConversion('octalToDecimal')">Octal to Decimal</button>
+            <button onclick="showConversion('decimalToHex')">Decimal to Hexadecimal</button>
+            <button onclick="showConversion('hexToDecimal')">Hexadecimal to Decimal</button>
+        </div>
+    </div>
+    
+    <!-- Footer Section -->
+    <footer class="footer">
+        <p>@Ayeee143</p>
+        <p>Ashley Igonia BSIT 1 G2</p>
+        <p>CS 132</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

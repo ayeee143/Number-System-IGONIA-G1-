@@ -1,0 +1,135 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: maroon;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 20px;
+    box-shadow: 10px 10px 30px #b8b8b8, -10px -10px 30px #ffffff;
+}
+
+h1 {
+    text-align: center;
+    color: #3e3e3e;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.name-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #3e3e3e;
+}
+
+.tag-text {
+    font-size: 16px;
+    color: #7e7e7e;
+}
+
+.menu {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.menu button {
+    padding: 10px 20px;
+    background-color: #d4d4d4;
+    color: #3e3e3e;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 5px;
+    box-shadow: 5px 5px 15px #b8b8b8, -5px -5px 15px #ffffff;
+}
+
+.menu button:hover {
+    background-color: #c4c4c4;
+}
+
+
+.conversion label {
+    font-weight: bold;
+    color: #3e3e3e;
+}
+
+.neu-button {
+    padding: 8px 20px;
+    background-color: #d4d4d4;
+    color: #3e3e3e;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 5px 5px 15px #b8b8b8, -5px -5px 15px #ffffff;
+}
+
+.conversion {
+    text-align: center;
+    position: relative; /* Add position relative to the container */
+}
+
+#enterValueLabel {
+    position: absolute;
+    top: -40px; /* Adjust as per your design */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%);
+    font-weight: bold;
+    color: #3e3e3e;
+}
+
+.neu-input {
+    padding: 8px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: gold;
+    box-shadow: inset 5px 5px 15px #b8b8b8, inset -5px -5px 15px #ffffff;
+    width: 100%; /* Set input width to 100% */
+    box-sizing: border-box; /* Include padding and border in width calculation */
+}
+
+.menu {
+    text-align: center;
+    margin-top: 20px; /* Adjust margin as per your design */
+}
+
+.neu-button:hover {
+    background-color: #c4c4c4;
+}
+
+#output {
+    font-size: 16px;
+    color: #3e3e3e;
+}
+
+.output-space {
+    height: 50px;
+    background-color: gold;
+    box-shadow: inset 5px 5px 15px #b8b8b8, inset -5px -5px 15px #ffffff;
+    padding: 10px;
+    margin-top: 10px; /* Adjust as per your design */
+    border-radius: 5px;
+}
+
+/*Footer*/
+
+.footer {
+    background-color: maroon;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #ffffff;
+}
