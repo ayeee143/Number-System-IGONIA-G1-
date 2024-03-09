@@ -59,7 +59,7 @@ h1 {
 
 .Image img{
     height: 40px;
-    margin-left: 178px;
+    margin-left: 119px;
     margin-top: 31px;
 
 }
@@ -71,7 +71,7 @@ h1 {
 
 .power h3{
     margin-top: -35px;
-    margin-left:205px;
+    margin-left:150px;
     color: white;
     width: 100%;
     position: relative;
@@ -80,7 +80,7 @@ h1 {
 
 .Video video{
     height: 50px;
-    margin-left: 228px;
+    margin-left: 168px;
     margin-top: -15px;
     border-radius: 10px;
 }
@@ -172,6 +172,7 @@ h1 {
     background-color: #5f1222;
     padding: 20px;
     text-align: center;
+    margin-top: -50px;
 }
 
 .footer p {
