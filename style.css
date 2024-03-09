@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: maroon;
+    background-color: #5f1222;
     margin: 0;
     padding: 0;
 }
@@ -8,10 +8,11 @@ body {
 .container {
     max-width: 400px;
     margin: 50px auto;
+    margin-top: 17px;
     padding: 20px;
     background-color: #f0f0f0;
     border-radius: 20px;
-    box-shadow: 10px 10px 30px #b8b8b8, -10px -10px 30px #ffffff;
+    box-shadow: 10px 10px 30px #2c2c2c, -10px -10px 30px #eab123;
 }
 
 h1 {
@@ -43,21 +44,60 @@ h1 {
 
 .menu button {
     padding: 10px 20px;
-    background-color: #d4d4d4;
-    color: #3e3e3e;
-    border: none;
+    border: 1px rgb(160, 157, 157) solid;
     border-radius: 10px;
     cursor: pointer;
-    font-weight:500;
+    font-weight:525;
     margin: 5px;
-    box-shadow: 5px 5px 15px #b8b8b8, -5px -5px 15px #ffffff;
+    color: #eab123;
+
 }
 
 .menu button:hover {
     background-color: #c4c4c4;
 }
 
+.Image img{
+    height: 40px;
+    margin-left: 895px;
+    margin-top: 31px;
 
+}
+
+.power{
+    color: black;
+}
+
+.power h3{
+    margin-top: -35px;
+    margin-left:925px;
+    color: white;
+    width: 7%;
+
+}
+
+.Video video{
+    height: 50px;
+    margin-left: 940px;
+    margin-top: -15px;
+    border-radius: 10px;
+}
+.nameheader{
+    border: 6px white solid;
+    color: white;
+
+    width: 22%;
+    justify-content: center;
+    text-align: center;
+    margin-left: 740px;
+}
+
+.nameheader h1{
+    color: white;
+    font-size: 30px;
+    text-shadow: 2px 3px 2px rgb(221, 219, 219);
+    font-weight: 1000;
+}
 .conversion label {
     font-weight: 1000;
     font-size: 15px;
@@ -127,7 +167,7 @@ h1 {
 /*Footer*/
 
 .footer {
-    background-color: maroon;
+    background-color: #5f1222;
     padding: 20px;
     text-align: center;
 }
@@ -136,4 +176,8 @@ h1 {
     margin: 5px 0;
     font-size: 14px;
     color: #ffffff;
+}
+
+.footer a{
+    text-decoration: none;
 }
