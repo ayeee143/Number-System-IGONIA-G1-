@@ -59,26 +59,28 @@ h1 {
 
 .Image img{
     height: 40px;
-    margin-left: 895px;
+    margin-left: 178px;
     margin-top: 31px;
 
 }
 
 .power{
     color: black;
+    position: relative;
 }
 
 .power h3{
     margin-top: -35px;
-    margin-left:925px;
+    margin-left:205px;
     color: white;
-    width: 7%;
+    width: 100%;
+    position: relative;
 
 }
 
 .Video video{
     height: 50px;
-    margin-left: 940px;
+    margin-left: 228px;
     margin-top: -15px;
     border-radius: 10px;
 }
