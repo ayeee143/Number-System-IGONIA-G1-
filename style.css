@@ -59,7 +59,7 @@ h1 {
 
 .Image img{
     height: 40px;
-    margin-left: 139px;
+    margin-left: 130px;
     margin-top: 31px;
 
 }
@@ -71,7 +71,7 @@ h1 {
 
 .power h3{
     margin-top: -35px;
-    margin-left:170px;
+    margin-left:160px;
     color: white;
     width: 100%;
     position: relative;
@@ -79,7 +79,7 @@ h1 {
 
 .Video video{
     height: 50px;
-    margin-left: 188px;
+    margin-left: 178px;
     margin-top: -15px;
     border-radius: 10px;
 }
@@ -90,7 +90,8 @@ h1 {
     width: 80%;
     justify-content: center;
     text-align: center;
-    margin-left: 45px;
+    margin-left: 35px;
+    margin-top: 12px;
 }
 
 .nameheader h1{
